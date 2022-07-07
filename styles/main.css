@@ -1,0 +1,23 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: darkblue;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  height: 500px;
+  width: 500px;
+  gap: 1em;
+}
+
+.boardTiles {
+  background-color: blueviolet;
+}
