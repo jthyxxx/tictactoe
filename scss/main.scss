@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Norsebold";
+    src: url('/Norse-Bold.otf');
+}
+
 body{
     box-sizing: border-box;
     margin: 0;
@@ -6,7 +11,15 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: darkblue;
+    background: linear-gradient(233deg, rgba(20,40,80,1) 0%, rgba(39,73,109,1) 49%, rgba(12,123,147,1) 100%);
+    gap: 1em;
+}
+
+.title{
+    font-family: "NorseBold";
+    font-size: 7em;
+    letter-spacing: 10px;
+    color:#00A8CC;
 }
 
 .board{
@@ -16,8 +29,16 @@ body{
     height: 500px;
     width: 500px;
     gap: 1em;
+    background-color: #0C7B93;
 }
 
 .boardTiles{
-    background-color: blueviolet;
+    background-color: #00A8CC;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    color: white;
 }
